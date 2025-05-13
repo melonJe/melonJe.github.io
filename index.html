@@ -37,12 +37,12 @@
     >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Clarence Taylor</span>
-        <span class="d-none d-lg-block"
+        <!-- <span class="d-none d-lg-block"
           ><img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
             src="assets/img/profile.jpg"
             alt="..."
-        /></span>
+        /></span> -->
       </a>
       <button
         class="navbar-toggler"
@@ -61,6 +61,9 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#project">Project</a>
           </li>
           <li class="nav-item">
@@ -68,11 +71,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education"
-              >Education & Certifications</a
+              >Education</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#certifications"
+              >Certifications</a
+            >
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests"
@@ -88,11 +93,11 @@
     <!-- Page Content-->
     <div class="container-fluid p-0">
       <!-- About-->
-      <section class="resume-section" style="min-height: 100vh" id="about">
+      <section class="resume-section" style="min-height: 80vh" id="about">
         <div class="resume-section-content">
           <h1 class="mb-0">
-            정
-            <span class="text-primary">상은</span>
+            Jeong
+            <span class="text-primary">Sang Eun</span>
           </h1>
           <div class="subheading mb-5">
             <a href="mailto:j.mayer.mj@email.com">j.mayer.mj@email.com</a>
@@ -103,11 +108,65 @@
           </p>
           <div class="social-icons">
             <!-- <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
-            <a class="social-icon" href="https://github.com/melonJe"
+            <a
+              class="social-icon"
+              href="https://github.com/melonJe?tab=repositories"
               ><i class="fab fa-github"></i
             ></a>
             <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
             <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!-- Skills-->
+      <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Skills</h2>
+          <!-- Language Section -->
+          <div class="skills">
+            <span class="skills">Language</span>
+            <div class="skill">
+              <span class="skill">Python</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">Java</span>
+              <span class="skill">Kotlin</span>
+            </div>
+          </div>
+
+          <!-- Backend Section -->
+          <div class="skills">
+            <span class="skills">Backend</span>
+            <div class="skill">
+              <span class="skill">Django</span>
+              <span class="skill">FastAPI (python)</span>
+              <span class="skill">RestAPI</span>
+            </div>
+          </div>
+
+          <!-- Frontend Section -->
+          <div class="skills">
+            <span class="skills">Frontend</span>
+            <div class="skill">
+              <span class="skill">React</span>
+            </div>
+          </div>
+
+          <!-- Backend Section -->
+          <div class="skills">
+            <span class="skills">DataBase</span>
+            <div class="skill">
+              <span class="skill">PostgreSQL</span>
+              <span class="skill">Redis</span>
+            </div>
+          </div>
+
+          <!-- DevOps Section -->
+          <div style="display: flex; align-items: center">
+            <span class="skills">DevOps</span>
+            <div class="skill">
+              <span class="skill">Docker</span>
+            </div>
           </div>
         </div>
       </section>
@@ -125,7 +184,7 @@
               <p>
                 사용자 데이터를 종합합하여 목적에 맞는 라이딩 경로를 추천합니다.
               </p>
-              <a class="social-icon" href="https://github.com/melonJe"
+              <a class="social-icon" href="https://github.com/melonJe/bicycle"
                 ><i class="fab fa-github"></i
               ></a>
             </div>
@@ -137,8 +196,25 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
+              <h3 class="mb-0">단축 URL 생성</h3>
+              <div class="mb-3">Python, PostgreSQL, Redis</div>
+              <p>긴 URL을 단축된 URL로 변환하여 관리하는 서비스</p>
+              <a
+                class="social-icon"
+                href="https://github.com/melonJe/url_shortener"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">24년 6월 26일</span>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
               <h3 class="mb-0">주식 매매 프로그램</h3>
-              <div class="mb-3">Python, PostgreSQL, docker</div>
+              <div class="mb-3">Python, PostgreSQL, Docker</div>
               <p>
                 차트 분석을 통해 매매 타이밍을 탐지하고 증권사에 예약 매매를
                 요청
@@ -150,7 +226,7 @@
               ></a>
             </div>
             <div class="flex-shrink-0">
-              <span class="text-primary">24년 5월 24일 - 현재</span>
+              <span class="text-primary">23년 5월 24일 - 현재</span>
             </div>
           </div>
         </div>
@@ -177,12 +253,12 @@
                 처리 속도 및 시스템 안정성을 향상시킴.<br />
               </div>
               <p style="margin-bottom: 0">
-                <strong>.NET 기반 서버 코드의 성능 개선</strong>
+                <strong>C# 기반 서버 코드의 성능 개선</strong>
               </p>
               <div class="flex-grow-1" style="padding-bottom: 20px">
-                - C# 및 .NET 프레임워크를 활용하여 기존 서버 어플리케이션의
-                성능을 <strong>개선</strong>함.<br />
-                - API 응답 시간 단축을 중점으로 코드 <strong>리팩토링</strong>을
+                C#으로 작성되어 있던 기존 서버 어플리케이션의 성능을
+                <strong>개선</strong>함.<br />
+                API 응답 시간 단축을 중점으로 코드 <strong>리팩토링</strong>을
                 수행함.<br />
               </div>
               <p style="margin-bottom: 0">
@@ -190,12 +266,17 @@
               </p>
               <div class="flex-grow-1" style="padding-bottom: 20px">
                 Docker Compose를 통한 백엔드 배포 시, 센서 이미지 누적으로 볼륨
-                마운트가 느려지는 <strong>문제</strong>가 발생했다.<br />
+                마운트가 느려지는 <strong>문제</strong>가 발생<br />
                 백엔드와 스토리지 서버를 <strong>분리</strong>해 배포 시간을
-                <strong>단축</strong>했다.<br />
+                <strong>단축</strong>함<br />
               </div>
               <p style="margin-bottom: 0">
-                <strong>출퇴근 기록 프로그램 개발</strong>
+                <strong>출퇴근 기록 프로그램 개발</strong>&nbsp;
+                <a
+                  class="social-icon"
+                  href="https://github.com/melonJe/synology-commute"
+                  ><i class="fab fa-github"></i
+                ></a>
               </p>
               <div class="flex-grow-1" style="padding-bottom: 20px">
                 <strong>Python, FastAPI</strong>로 작동하는 출퇴근 기록
@@ -209,10 +290,10 @@
         </div>
       </section>
       <hr class="m-0" />
-      <!-- Education & Certifications-->
-      <section class="resume-section" id="education & Certifications">
+      <!-- Education-->
+      <section class="resume-section" id="education">
         <div class="resume-section-content">
-          <h2 class="mb-5">교육 & 자격증</h2>
+          <h2 class="mb-5">Education</h2>
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
@@ -229,6 +310,25 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
+              <h3 class="mb-0">순천향대학교</h3>
+              <div class="subheading mb-3">전자물리학과</div>
+              <div>학점 3.68/4.5</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">12년 3월 - 16년 2월</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+      <!--Certifications-->
+      <section class="resume-section" id="certifications">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Certifications</h2>
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
               <h3 class="mb-0">정보처리기사</h3>
               <div>한국산업인력공단</div>
             </div>
@@ -236,60 +336,17 @@
               <span class="text-primary">22년 6월</span>
             </div>
           </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Skills-->
-      <section class="resume-section" id="skills">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Skills</h2>
-          <div class="subheading mb-3">Programming Languages & Tools</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-            <li class="list-inline-item">
-              <img src="./assets/Django.svg" alt="call" width="48" />
-            </li>
-            <li class="list-inline-item">
-              <img src="./assets/Docker.svg" alt="call" width="48" />
-            </li>
-            <li class="list-inline-item">
-              <img src="./assets/FastAPI.svg" alt="call" width="48" />
-            </li>
-            <li class="list-inline-item">
-              <img src="./assets/Java.svg" alt="call" width="48" />
-            </li>
-            <li class="list-inline-item">
-              <img src="./assets/Kotlin.svg" alt="call" width="48" />
-            </li>
-            <li class="list-inline-item">
-              <img src="./assets/Oracle.svg" alt="call" width="48" />
-            </li>
-            <li class="list-inline-item">
-              <img src="./assets/PostgresSQL.svg" alt="call" width="48" />
-            </li>
-            <li class="list-inline-item">
-              <img src="./assets/Python.svg" alt="call" width="48" />
-            </li>
-          </ul>
-          <!-- <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Mobile-First, Responsive Design
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Cross Browser Testing & Debugging
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Cross Functional Teams
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Agile Development & Scrum
-            </li>
-          </ul> -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">JPT 일본어 능력 시험</h3>
+              <div>YBM (625점 취득)</div>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">25년 3월</span>
+            </div>
+          </div>
         </div>
       </section>
       <hr class="m-0" />
@@ -374,7 +431,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
+      <hr class="m-0" /> -->
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
