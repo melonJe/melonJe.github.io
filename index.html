@@ -2,423 +2,177 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>Resume - Start Bootstrap Theme</title>
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-  <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet" />
-  <style>
-    .hover-unknown {
-      position: relative;
-      display: inline-block;
-      cursor: pointer;
-    }
-
-    .hover-unknown-image {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 200px;
-      border: 1px solid #ccc;
-      background: white;
-      z-index: 10;
-      padding: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-
-    .hover-unknown:hover .hover-unknown-image {
-      display: block;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+<script src="js/scripts.js"></script>
 
-<body id="page-top">
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Jeong Sang Eun</span>
-      <!-- <span class="d-none d-lg-block"
-          ><img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="assets/img/profile.jpg"
-            alt="..."
-        /></span> -->
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#project">Project</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#company">company</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
-        </li>
-        <!-- <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
-              >Interests</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li> -->
-      </ul>
+<body>
+    <header>
+        <div class="content">
+            <h1>안녕하세요</h1>
+            <p>풀스택 개발자로 성장하고 있는 정상은입니다.</p>
+            <a href="#projects" class="btn">프로젝트 보기</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="skills">
+            <h2>SKILLS</h2>
+            <div class="skills-category-container">
+                <div class="skill-category">
+                    <span class="skill-category-title">Language</span>
+                    <div class="skills-grid">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">PHP</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">JavaScript</span>
+                        <!-- <span class="skill-item">Kotlin</span> -->
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <span class="skill-category-title">Frontend</span>
+                    <span class="skill-item">React</span>
+                    <div class="skills-grid">
+
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <span class="skill-category-title">Backend</span>
+                    <div class="skills-grid">
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">Redis</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <span class="skill-category-title">DevOps</span>
+                    <div class="skills-grid">
+                        <span class="skill-item">Docker</span>
+                        <!-- <span class="skill-item">AWS</span> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="archiving">
+            <h2>ARCHIVING</h2>
+            <div class="archiving-grid">
+                <div class="archiving-item">
+                    <h3>GitHub</h3>
+                    <p>소스 코드 및 개발 진행 과정 기록</p>
+                    <a href="https://github.com/melonJe" target="_blank">melonJe</a>
+                </div>
+                <div class="archiving-item">
+                    <h3>Blog / Velog</h3>
+                    <p>기술 블로그 (학습 내용, 프로젝트 회고 등)</p>
+                    <a href="https://caffeine-melon.tistory.com" target="_blank">caffeine-melon</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>PROJECTS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>자전거 라이딩 경로 추천</h3>
+                    <p>개발 기간: 25년 5월 10일 - 현재</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>Kotlin</span>
+                        <span>PostGIS</span>
+                        <span>Docker</span>
+                    </div>
+                    <p>사용자 데이터를 종합하여 목적에 맞는 라이딩 경로를 추천합니다.</p>
+                    <div class="links">
+                        <a href="https://github.com/melonJe/bicycle" target="_blank">GitHub</a>
+                        <!-- <a href="[프로젝트 1 배포 URL]" target="_blank">Demo</a> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>데블스 플랜 보드게임 unknown</h3>
+                    <p>개발 기간: 25년 5월 31일 - 현재</p>
+                    <div class="tags">
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
+                    </div>
+                    <p>데블스 플랜 2번째 메인매치에서 소개된 unknown을 즐길 수 있는 웹 페이지</p>
+                    <div class="links">
+                        <a href="https://github.com/melonJe/unknown" target="_blank">GitHub</a>
+                        <!-- <a href="[프로젝트 2 배포 URL]" target="_blank">Demo</a> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>단축 URL 생성</h3>
+                    <p>개발 기간: 24년 6월 26일</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
+                    </div>
+                    <p>긴 URL을 단축된 URL로 변환하여 관리하는 서비스</p>
+                    <div class="links">
+                        <a href="https://github.com/melonJe/url_shortener" target="_blank">GitHub</a>
+                        <!-- <a href="[프로젝트 3 배포 URL]" target="_blank">Demo</a> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>주식 매매 프로그램</h3>
+                    <p>개발 기간: 23년 5월 24일 - 25년 5월 25일</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                        <span>Docker</span>
+                    </div>
+                    <p>차트 분석을 통해 매매 타이밍을 탐지하고 증권사에 예약 매매를 요청</p>
+                    <div class="links">
+                        <a href="https://github.com/melonJe/stock/tree/develop" target="_blank">GitHub</a>
+                        <!-- <a href="[프로젝트 4 배포 URL]" target="_blank">Demo</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="career">
+            <h2>CAREER</h2>
+            <div class="career-item">
+                <div class="logo">
+                    <img src="img/MoveAWheeL.png" alt="Company 1 Logo">
+                </div>
+                <div class="details">
+                    <h3>모바휠(MoveAWheeL)</h3>
+                    <p>재직 기간: 22년 6월 - 23년 6월</p>
+                    <ul>
+                        <li><strong>PostgreSQL 스키마 최적화:</strong> 기존의 데이터베이스 스키마를 분석하고 성능 향상을 위해 구조를 재설계함. 인덱싱, 쿼리 최적화 및
+                            정규화를
+                            통해 데이터 처리 속도 및 시스템 안정성을 향상시킴.</li>
+                        <li><strong>C# 기반 서버 코드의 성능 개선:</strong> C#으로 작성되어 있던 기존 서버 어플리케이션의 성능을 개선함. API 응답 시간 단축을 중점으로
+                            코드
+                            리팩토링을 수행함.</li>
+                        <li><strong>docker-compose 배포 시 겪은 문제:</strong> Docker Compose를 통한 백엔드 배포 시, 센서 이미지 누적으로 볼륨 마운트가
+                            느려지는 문제가 발생. 백엔드와 스토리지 서버를 분리해 배포 시간을 단축함.</li>
+                        <li><strong>출퇴근 기록 프로그램 개발:</strong> Python, FastAPI로 작동하는 출퇴근 기록 프로그램을 개발. <a
+                                href="https://github.com/melonJe/synology-commute" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
-  </nav>
-  <!-- Page Content-->
-  <div class="container-fluid p-0">
-    <!-- About-->
-    <section class="resume-section" style="min-height: 80vh" id="about">
-      <div class="resume-section-content">
-        <h1 class="mb-0">
-          Jeong
-          <span class="text-primary">Sang Eun</span>
-        </h1>
-        <div class="subheading mb-5">
-          <a href="mailto:j.mayer.mj@email.com">j.mayer.mj@email.com</a>
-        </div>
-        <p class="lead mb-5">
-          안녕하세요. 웹 개발자 정상은입니다.
-        </p>
-        <div class="social-icons">
-          <!-- <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
-          <a class="social-icon" href="https://github.com/melonJe"><i class="fab fa-github"></i></a>
-          <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
-          <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Skills-->
-    <section class="resume-section" id="skills">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Skills</h2>
-        <!-- Language Section -->
-        <div class="skills">
-          <span class="skills">Language</span>
-          <div class="skill">
-            <span class="skill">Python</span>
-            <span class="skill">PHP</span>
-            <span class="skill">JavaScript</span>
-            <span class="skill">Java</span>
-            <span class="skill">Kotlin</span>
-          </div>
-        </div>
 
-        <!-- Backend Section -->
-        <div class="skills">
-          <span class="skills">Backend</span>
-          <div class="skill">
-            <span class="skill">Django</span>
-            <span class="skill">FastAPI (python)</span>
-            <span class="skill">RestAPI</span>
-          </div>
-        </div>
-
-        <!-- Frontend Section -->
-        <div class="skills">
-          <span class="skills">Frontend</span>
-          <div class="skill">
-            <span class="skill">React</span>
-          </div>
-        </div>
-
-        <!-- Backend Section -->
-        <div class="skills">
-          <span class="skills">DataBase</span>
-          <div class="skill">
-            <span class="skill">PostgreSQL</span>
-            <span class="skill">Redis</span>
-          </div>
-        </div>
-
-        <!-- DevOps Section -->
-        <div style="display: flex; align-items: center">
-          <span class="skills">DevOps</span>
-          <div class="skill">
-            <span class="skill">Docker</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- project -->
-    <section class="resume-section" id="project">
-      <div class="resume-section-content">
-        <h2 class="mb-5">project</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">자전거 라이딩 경로 추천</h3>
-            <div class="mb-3">Python, FastAPI, Kotlin, PostGIS, Docker</div>
-            <p>
-              사용자 데이터를 종합하여 목적에 맞는 라이딩 경로를 추천합니다.
-            </p>
-            <a class="social-icon" href="https://github.com/melonJe/bicycle"><i class="fab fa-github"></i></a>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">25년 5월 10일 - 현재</span>
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0 hover-unknown">데블스 플랜 보드게임 unknown
-              <img src="unknown.png" alt="미리보기" class="hover-unknown-image">
-            </h3>
-            <div class="mb-3">PHP, JavaScript, PostgreSQL, MongoDB(예정)</div>
-            <p>
-              데블스 플랜 2번째 메인매치에서 소개된 unknown을 즐길 수 있는 웹 페이지
-            </p>
-            <a class="social-icon" href="https://github.com/melonJe/unknown"><i class="fab fa-github"></i></a>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">25년 5월 31일 - 현재</span>
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">단축 URL 생성</h3>
-            <div class="mb-3">Python, PostgreSQL, Redis</div>
-            <p>긴 URL을 단축된 URL로 변환하여 관리하는 서비스</p>
-            <a class="social-icon" href="https://github.com/melonJe/url_shortener"><i class="fab fa-github"></i></a>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">24년 6월 26일</span>
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">주식 매매 프로그램</h3>
-            <div class="mb-3">Python, PostgreSQL, Docker</div>
-            <p>
-              차트 분석을 통해 매매 타이밍을 탐지하고 증권사에 예약 매매를
-              요청
-            </p>
-            <a class="social-icon" href="https://github.com/melonJe/stock/tree/develop"><i
-                class="fab fa-github"></i></a>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">23년 5월 24일 - 25년 5월 25일</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- company -->
-    <section class="resume-section" id="company">
-      <div class="resume-section-content">
-        <h2 class="mb-5">company</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">모바휠(MoveAWheeL)</h3>
-            <div class="mb-3">C#, PostgreSQL, Node.js, Python, FastAPI</div>
-            <p style="margin-bottom: 0">
-              <strong>PostgreSQL 스키마 최적화</strong>
-            </p>
-            <div class="flex-grow-1" style="padding-bottom: 20px">
-              기존의 데이터베이스 스키마를 분석하고
-              <strong>성능 향상</strong>을 위해 구조를
-              <strong>재설계</strong>함<br />
-              인덱싱, 쿼리 최적화 및 <strong>정규화</strong>를 통해 데이터
-              처리 속도 및 시스템 안정성을 향상시킴.<br />
-            </div>
-            <p style="margin-bottom: 0">
-              <strong>C# 기반 서버 코드의 성능 개선</strong>
-            </p>
-            <div class="flex-grow-1" style="padding-bottom: 20px">
-              C#으로 작성되어 있던 기존 서버 어플리케이션의 성능을
-              <strong>개선</strong>함.<br />
-              API 응답 시간 단축을 중점으로 코드 <strong>리팩토링</strong>을
-              수행함.<br />
-            </div>
-            <p style="margin-bottom: 0">
-              <strong>docker-compose 배포 시 겪은 문제</strong>
-            </p>
-            <div class="flex-grow-1" style="padding-bottom: 20px">
-              Docker Compose를 통한 백엔드 배포 시, 센서 이미지 누적으로 볼륨
-              마운트가 느려지는 <strong>문제</strong>가 발생<br />
-              백엔드와 스토리지 서버를 <strong>분리</strong>해 배포 시간을
-              <strong>단축</strong>함<br />
-            </div>
-            <p style="margin-bottom: 0">
-              <strong>출퇴근 기록 프로그램 개발</strong>&nbsp;
-              <a class="social-icon" href="https://github.com/melonJe/synology-commute"><i
-                  class="fab fa-github"></i></a>
-            </p>
-            <div class="flex-grow-1" style="padding-bottom: 20px">
-              <strong>Python, FastAPI</strong>로 작동하는 출퇴근 기록
-              프로그램을 개발<br />
-            </div>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">22년 6월 - 23년 6월</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Education-->
-    <section class="resume-section" id="education">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Education</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">솔데스크</h3>
-            <div class="subheading mb-3">자바 웹 개발자 양성과정</div>
-            <div>JAVA, Spring boot, Oracle</div>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">20년 4월 - 20년 9월</span>
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">순천향대학교</h3>
-            <div class="subheading mb-3">전자물리학과</div>
-            <div>학점 3.68/4.5</div>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">12년 3월 - 16년 2월</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!--Certifications-->
-    <section class="resume-section" id="certifications">
-      <div class="resume-section-content">
-        <h2 class="mb-5">Certifications</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">정보처리기사</h3>
-            <div>한국산업인력공단</div>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">22년 6월</span>
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">JPT 일본어 능력 시험</h3>
-            <div>YBM (625점 취득)</div>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">25년 3월</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr class="m-0" />
-    <!-- Interests-->
-    <!-- <section class="resume-section" id="interests">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Interests</h2>
-          <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p class="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
-          </p>
-        </div>
-      </section>
-      <hr class="m-0" /> -->
-    <!-- Awards-->
-    <!-- <section class="resume-section" id="awards">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Awards & Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              2
-              <sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              3
-              <sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
-        </div>
-      </section>
-      <hr class="m-0" /> -->
-  </div>
-  <!-- Bootstrap core JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Core theme JS-->
-  <script src="js/scripts.js"></script>
+    <footer>
+        <p>&copy; update 2025/07/07 정상은</p>
+    </footer>
 </body>
 
 </html>
