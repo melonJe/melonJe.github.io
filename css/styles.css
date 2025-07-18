@@ -27,7 +27,7 @@ body {
     font-family: "JetBrains Mono", sans-serif;
     margin: 0;
     background-color: #f0f2f5;
-    color: #15151c;
+    color: #212121;
     line-height: 1.6;
 }
 
@@ -54,7 +54,7 @@ header::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #15151c;
+    background: #212121;
     z-index: 0;
 }
 
@@ -75,8 +75,8 @@ header p {
 
 .btn {
     display: inline-block;
-    background-color: #bcddb3;
-    color: #15151c;
+    background-color: #66BB6A;
+    color: #212121;
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -85,7 +85,7 @@ header p {
 }
 
 .btn:hover {
-    background-color: #bcddb3;
+    background-color: #66BB6A;
 }
 
 section {
@@ -99,7 +99,7 @@ section {
 section h2 {
     text-align: center;
     font-size: 2em;
-    color: #15151c;
+    color: #212121;
     margin-bottom: 40px;
     position: relative;
 }
@@ -109,14 +109,14 @@ section h2::after {
     display: block;
     width: 50px;
     height: 3px;
-    background-color: #bcddb3;
+    background-color: #66BB6A;
     margin: 10px auto 0;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #15151c;
+    background-color: #212121;
     color: white;
     margin-top: 40px;
     font-size: 0.9em;
@@ -142,7 +142,7 @@ footer {
 
 .about-me-item .icon {
     font-size: 2em;
-    color: #bcddb3;
+    color: #66BB6A;
     margin-bottom: 10px;
     position: relative;
     flex-shrink: 0;
@@ -176,8 +176,7 @@ footer {
 }
 
 .skills-category-container {
-    background-color: #CFFFE2;
-    /* Light yellow background as seen in the image */
+    background-color: #E8FFD7;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -187,48 +186,35 @@ footer {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    /* Space between categories */
 }
 
 .skill-category:last-child {
     margin-bottom: 0;
-    /* No margin after the last category */
 }
 
 .skill-category-title {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #333;
+    color: #212121;
     min-width: 120px;
-    /* Give some fixed width for titles */
     text-align: right;
     padding-right: 20px;
 }
 
 .skills-grid {
     display: flex;
-    /* Use flexbox for skill items within a row */
     flex-wrap: wrap;
-    /* Allow items to wrap to the next line */
     gap: 10px;
-    /* Space between skill items */
     justify-content: flex-start;
-    /* Align items to the start */
     flex-grow: 1;
-    /* Allow the grid to take available space */
 }
 
 .skill-item {
-    background-color: #88ffcc;
-    /* Light green background for skill items, as seen in the image */
     padding: 8px 15px;
     border-radius: 5px;
     font-weight: bold;
-    color: #065f46;
-    /* Darker green text for contrast */
     font-size: 0.9rem;
     white-space: nowrap;
-    /* Prevent text from wrapping inside the skill item */
 }
 
 
@@ -254,19 +240,12 @@ footer {
     font-weight: 700;
     font-size: 1.125rem;
     margin-top: 0;
-    color: #0A400C;
+    color: #212121;
 }
 
 .archiving-item p {
     font-size: .875rem;
     margin-bottom: 0;
-}
-
-.archiving-item a {
-    font-size: .875rem;
-    font-weight: 700;
-    color: #0d6efd;
-    text-decoration: none;
 }
 
 .archiving-item a:hover {
@@ -328,14 +307,14 @@ footer {
     margin-top: .5rem;
 }
 
-.project-card .links a {
+a {
     font-size: .875rem;
     font-weight: 700;
-    color: #FE7743;
+    color: #FF9800;
     text-decoration: none;
 }
 
-.project-card .links a:hover {
+a:hover {
     text-decoration: underline;
 }
 
